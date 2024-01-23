@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .button {
+    @apply bg-gray-800  px-4 py-2 rounded shadow-lg text-white md:text-2xl text-sm;
+  }
+ .button-hover{
+  @apply hover:bg-gray-700 hover:cursor-pointer 
+ }
+}
